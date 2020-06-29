@@ -1,0 +1,21 @@
+{
+  "name": "captcha-harvester",
+  "version": "1.0.0",
+  "description": "Working Captcha Harvester",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "ChubbyBalboa",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "moment": "^2.23.0",
+    "request-promise": "^4.2.5",
+    "socks-proxy-agent": "^5.0.0"
+  }
+}
